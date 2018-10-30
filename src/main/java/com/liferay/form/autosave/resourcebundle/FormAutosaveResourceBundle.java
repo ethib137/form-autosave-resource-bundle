@@ -30,7 +30,7 @@ import org.osgi.service.log.LogService;
  * @author Liferay
  */
 @Component(
-	immediate = true, property = "language.id=en_US",
+	immediate = true, property = "language.id=en",
 	service = ResourceBundle.class
 )
 public class FormAutosaveResourceBundle extends ResourceBundle {
@@ -54,6 +54,6 @@ public class FormAutosaveResourceBundle extends ResourceBundle {
 	private LogService _log;
 
 	private final ResourceBundle _resourceBundle = ResourceBundle.getBundle(
-		"content.Language_en_US", UTF8Control.INSTANCE);
+		"content.Language_en", UTF8Control.INSTANCE);
 
 }
