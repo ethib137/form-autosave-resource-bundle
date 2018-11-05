@@ -54,6 +54,6 @@ public class FormAutosaveResourceBundle extends ResourceBundle {
 	private LogService _log;
 
 	private final ResourceBundle _resourceBundle = ResourceBundle.getBundle(
-		"content.Language_en", UTF8Control.INSTANCE);
+		"content.Language", UTF8Control.INSTANCE);
 
 }
